@@ -1,0 +1,21 @@
+/*IMAGENES DE LUGARES TURISTICOS*/
+.carrusel{
+    display:flex  ;
+    overflow-y: auto;
+    padding: 16pt;
+}
+.cuerpo-card{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+}
+.card{
+    margin-right: 10px;
+    position: relative;
+}
+.card img{
+    width: 200px;
+    object-fit: cover;
+    height: 300px;
+}
+
